@@ -52,8 +52,4 @@ class VoterListView(ListView):
 class VoteDetailedView(DetailView):
     model = Voter
     template_name = 'voter_analytics/voter_detail.html'
-    context_object_name = 'v' 
-    def get_context_data(self, **kwargs: any) -> dict[str, any]:
-   
-        context = super().get_context_data(**kwargs)
-        v = context['v'] 
+    context_object_name = 'v'
