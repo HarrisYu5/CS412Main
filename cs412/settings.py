@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hw4',
     'restaurant',
+    'voter_analytics',
 ]
 
 MIDDLEWARE = [

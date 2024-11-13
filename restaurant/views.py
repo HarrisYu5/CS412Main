@@ -10,10 +10,11 @@ def order(request):
     dailySpecial = ["Golden Apple", "Potion of Health", "Fermented spider eye", "Mushroom stew", 
                     "Bread", "Cooked porkchop", "Cooked chicken", "Cooked salmon", "Cookie", "Cake"]
     dailySpecialPrice = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-
     randomIndex = random.randint(0, len(dailySpecial) - 1)
     special = dailySpecial[randomIndex]
     specialPrice = dailySpecialPrice[randomIndex]
+
+
 
 
 
