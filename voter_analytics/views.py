@@ -3,8 +3,7 @@ from django.db.models.query import QuerySet
 from django.views.generic import ListView, DetailView
 from django.shortcuts import render
 from .models import Voter
-import plotly
-import plotly.graph_objects as go
+
 
 
 class VoterListView(ListView):
