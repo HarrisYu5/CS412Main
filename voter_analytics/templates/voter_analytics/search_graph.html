@@ -1,6 +1,6 @@
 <h2>Search</h2>
-
-<form action="{% url 'voter' %}" method="get">
+<!-- This is not optimal, but I can't seem to make search.html work for both voter and graph, so I need to create this seperate one -->
+<form action="{% url 'graph' %}" method="get">
     <!-- make this html page reusable in both graph.html and voter.html  -->
     <label for="party_affiliation">Party Affiliation:</label>
     <select id="party_affiliation" name="party_affiliation">

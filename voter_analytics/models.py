@@ -51,6 +51,7 @@ class Voter(models.Model):
             except :
                 print(f"Error at: {line}")
         print("Done!")
+    
 
 
 
