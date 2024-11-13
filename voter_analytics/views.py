@@ -61,7 +61,7 @@ class VoteDetailedView(DetailView):
 
 class GraphListView(ListView):
     model = Voter
-    template_name = 'voter_analytics/graph.html'
+    template_name = 'voter_analytics/graphs.html'
     context_object_name = 'v'
 
     def get_context_data(self, **kwargs: Any) -> dict[str, Any]:
