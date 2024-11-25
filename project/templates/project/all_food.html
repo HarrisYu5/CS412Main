@@ -1,0 +1,10 @@
+
+
+{% block content %}
+<h1>All Food</h1>
+<ul>
+    {% for food in foods %}
+        <li>{{ food.name }} - {{ food.calories }} kcal</li>
+    {% endfor %}
+</ul>
+{% endblock %}
