@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'hw4',
     'restaurant',
     'voter_analytics',
+    'project',
+
 ]
 
 MIDDLEWARE = [
